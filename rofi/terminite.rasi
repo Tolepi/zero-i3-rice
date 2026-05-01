@@ -1,0 +1,83 @@
+configuration {
+    modi: "drun,run,window";
+    show-icons: false;
+    font: "Maple Mono Italic 11";
+    display-drun: "󰍜 Apps | ";
+    display-run: "󰆍 Run";
+    display-window: "󱂬 Windows";
+}
+
+* {
+    bg:             #dbd5d1;
+    fg:             #2d2926;
+    accent:         #9a938d;
+    selected-bg:    #2d2926;
+    selected-fg:    #dbd5d1;
+    
+    background-color:   transparent;
+    text-color:         @fg;
+}
+
+window {
+    width: 600px;
+    border: 2px;
+    border-color: @accent;
+    border-radius: 0px;
+    padding: 0px;
+    location: center;
+    background-color: @bg;
+}
+
+mainbox {
+    children: [inputbar, listview];
+}
+
+inputbar {
+    padding: 12px;
+    background-color: @bg;
+    children: [prompt, entry];
+    border: 0 0 2px 0;
+    border-color: @accent;
+}
+
+prompt {
+    enabled: true;
+    text-color: @fg;
+    font: "CaskaydiaCove Nerd Font Bold 11";
+}
+
+entry {
+    placeholder: "Search, soldier...";
+    placeholder-color: @accent;
+    text-color: @fg;
+}
+
+listview {
+    lines: 8;
+    columns: 1;
+    spacing: 0px;
+    scrollbar: false;
+    fixed-height: true;
+    background-color: @bg;
+}
+
+element {
+    padding: 10px;
+    border-radius: 0px;
+}
+
+element normal.normal {
+    background-color: @bg;
+    text-color: @fg;
+}
+
+element selected.normal {
+    background-color: @selected-bg;
+    text-color: @selected-fg;
+}
+
+element-text {
+    background-color: inherit;
+    text-color: inherit;
+    vertical-align: 0.5;
+}
