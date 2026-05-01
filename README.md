@@ -28,9 +28,12 @@ Previews!
 
 <img width="1365" height="767" alt="2026-05-01_12-01_1" src="https://github.com/user-attachments/assets/91effeba-db7e-4060-851a-bc4ab4b2698f" />
 
+
 <img width="1365" height="767" alt="2026-05-01_12-01" src="https://github.com/user-attachments/assets/aa242d2c-ebe2-466c-b754-096f812ae6de" />
 
+
 <img width="1365" height="767" alt="2026-05-01_12-00" src="https://github.com/user-attachments/assets/e47b91eb-0083-4d49-98b9-ef0978d1cc61" />
+
 
 Polybar Preview!!
 
