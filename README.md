@@ -32,6 +32,7 @@ Dependencies.
 - Maple Mono Nerd Font.
 - CaskaydiaMono/CaskaydiaCove Nerd Font.
 - Fastfetch (Fetch.)
+- Zsh (Prompt)
 
 Previews!
 
