@@ -31,6 +31,7 @@ Dependencies.
 - Rofi (Application Launcher.)
 - Maple Mono Nerd Font.
 - CaskaydiaMono/CaskaydiaCove Nerd Font.
+- Fastfetch (Fetch.)
 
 Previews!
 
