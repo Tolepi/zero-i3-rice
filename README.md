@@ -5,15 +5,23 @@ Hello everyone and welcome to another i3 rice! This rice is made to be a flashba
 
 Keybinds i use:
 
-Open a terminal: Super + Enter (Super is the windows key.)
-Close a window: Super + Q
-Start the application launcher (Rofi): Super + D
-Reload the config: Super + Shift + R
-Restart i3: Super + Shift + C
-Exit i3 (prompt): Super + Shift + E
-Move to a workspace: Super + "Number of the workspace, for example: 1, 2, 3, 4"
-Move window to a specific workspace: Super + Shift + "Number of the workspace you want to move the window"
-Fullscreen toggle: Super + F
+- Open a terminal: Super + Enter (Super is the windows key.)
+  
+- Close a window: Super + Q
+  
+- Start the application launcher (Rofi): Super + D
+  
+- Reload the config: Super + Shift + R
+  
+- Restart i3: Super + Shift + C
+  
+- Exit i3 (prompt): Super + Shift + E
+  
+- Move to a workspace: Super + "Number of the workspace, for example: 1, 2, 3, 4"
+  
+- Move window to a specific workspace: Super + Shift + "Number of the workspace you want to move the window"
+  
+- Fullscreen toggle: Super + F
 
 Dependencies.
 
